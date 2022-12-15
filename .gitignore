@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+Tutorials/weights.h5
+
 # Distribution / packaging
 .Python
 build/
@@ -127,3 +129,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
