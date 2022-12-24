@@ -39,13 +39,13 @@ def calculate_mse(x,y,ppm):
     #       - mse
     #
     
-    # selecting region of interest (1.5-4 ppm)
+    # selecting region of interest (2.5-4 ppm)
     # 
     mses = []
     for i in range(0,ppm.shape[0]):
         i_ppm = ppm[i] 
         max_ind = np.argmin(i_ppm[i_ppm<=4])
-        min_ind = np.argmax(i_ppm[i_ppm>=1.5])
+        min_ind = np.argmax(i_ppm[i_ppm>=2.5])
 
         x_crop = x[i,min_ind:max_ind]
         y_crop = y[i,min_ind:max_ind]

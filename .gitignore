@@ -7,6 +7,9 @@ __pycache__/
 *.so
 
 Tutorials/weights.h5
+Tutorials/torch_weights.pt
+Tutorials/torch_weights.pth
+Tutorials/pytorch_tutorial_failed.ipynb
 
 # Distribution / packaging
 .Python
