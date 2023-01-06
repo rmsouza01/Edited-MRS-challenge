@@ -10,6 +10,7 @@ Tutorials/weights.h5
 Tutorials/torch_weights.pt
 Tutorials/torch_weights.pth
 Tutorials/pytorch_tutorial_failed.ipynb
+testing_metric_calculation.ipynb
 
 # Distribution / packaging
 .Python
