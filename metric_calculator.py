@@ -49,9 +49,11 @@ def calculate_mse(x,y,ppm):
 
         x_crop = x[i,min_ind:max_ind]
         y_crop = y[i,min_ind:max_ind]
-        mses.append(np.square(y_crop-x_crop).mean())
 
-    # calculating mse and returing
+        x_crop_norm = (x_crop-x_crop.min())/(x_crop.max()-x_crop.min())
+        y_crop_norm = (y_crop-y_crop.min())/(y_crop.max()-y_crop.min())
+
+        mses.append(np.square(y_crop_norm-x_crop_norm).mean())
     return sum(mses)/len(mses)
 
 def calculate_snr(x,ppm):

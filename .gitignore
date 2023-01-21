@@ -11,6 +11,8 @@ Tutorials/torch_weights.pt
 Tutorials/torch_weights.pth
 Tutorials/pytorch_tutorial_failed.ipynb
 testing_metric_calculation.ipynb
+scratch.ipynb
+verify_norm_mse.ipynb
 
 # Distribution / packaging
 .Python
